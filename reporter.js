@@ -1,10 +1,9 @@
-
 var template = require('./template');
 var fs = require('fs');
 var util = require('util');
 
-var errorTplFilename = '/home/zhangbing/me/devtest/mvcSea/jshint-html-reporter/errorlist.tpl'; 
-var errorHtmlFilename = '/home/zhangbing/me/devtest/mvcSea/jshint-html-reporter/errorlist.html';
+var errorTplFilename = './errorlist.tpl'; 
+var errorHtmlFilename = './errorlist.html';
 console.log('init');
 
 // 编码buffer为string
