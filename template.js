@@ -1,8 +1,7 @@
-﻿/*!
+/*!
  * artTemplate - Template Engine
  * https://github.com/aui/artTemplate
  * Released under the MIT, BSD, and GPL Licenses
- * Email: 1987.tangbin@gmail.com
  */
  
 
@@ -27,11 +26,11 @@ var template = function (id, content) {
 
 
 'use strict';
-exports.version = '2.0.0'; 
+exports.version = '2.0.1'; 
 exports.openTag = '<%';     // 设置逻辑语法开始标签
 exports.closeTag = '%>';    // 设置逻辑语法结束标签
 exports.isEscape = true;    // HTML字符编码输出开关
-exports.isCompress = false;	// 剔除渲染后HTML多余的空白开关
+exports.isCompress = false; // 剔除渲染后HTML多余的空白开关
 exports.parser = null;      // 自定义语法插件接口
 
 
@@ -111,16 +110,16 @@ exports.compile = function (id, source) {
             if (!isDebug) {
                 return exports.compile(id, source, true)(data);
             }
-			
+
             e.id = id || source;
             e.name = 'Render Error';
             e.source = source;
             
             return _debug(e);
             
-        };
+        }
         
-    };
+    }
     
 
     render.prototype = Render.prototype;
@@ -222,7 +221,7 @@ var _debug = function (e) {
     
     function error () {
         return error + '';
-    };
+    }
     
     error.toString = function () {
         return '{Template Error}';
@@ -240,7 +239,7 @@ var _compile = (function () {
     // 辅助方法集合
     exports.prototype = {
         $render: exports.render,
-        $escapeHTML: function (content) {
+        $escape: function (content) {
 
             return typeof content === 'string'
             ? content.replace(/&(?![\w#]+;)|[<>"']/g, function (s) {
@@ -254,7 +253,7 @@ var _compile = (function () {
             })
             : content;
         },
-        $getValue: function (value) {
+        $string: function (value) {
 
             if (typeof value === 'string' || typeof value === 'number') {
 
@@ -292,7 +291,8 @@ var _compile = (function () {
     };
 
 
-    var keyWords =
+    // 静态分析模板变量
+    var KEYWORDS =
         // 关键字
         'break,case,catch,continue,debugger,default,delete,do,else,false'
         + ',finally,for,function,if,in,instanceof,new,null,return,switch,this'
@@ -308,35 +308,23 @@ var _compile = (function () {
         + ',arguments,let,yield'
 
         + ',undefined';
-
-    var filter = new RegExp([
-
-        // 注释
-        "/\\*(.|\n)*?\\*/|//[^\n]*\n|//[^\n]*$",
-
-        // 字符串
-        "'[^']*'|\"[^\"]*\"",
-
-        // 方法
-        "\\.[\s\t\n]*[\\$\\w]+",
-
-        // 关键字
-        "\\b" + keyWords.replace(/,/g, '\\b|\\b') + "\\b"
-
-
-    ].join('|'), 'g');
-
-
-
-    // 提取js源码中所有变量
+    var REMOVE_RE = /\/\*(?:.|\n)*?\*\/|\/\/[^\n]*\n|\/\/[^\n]*$|'[^']*'|"[^"]*"|[\s\t\n]*\.[\s\t\n]*[$\w\.]+/g;
+    var SPLIT_RE = /[^\w$]+/g;
+    var KEYWORDS_RE = new RegExp(["\\b" + KEYWORDS.replace(/,/g, '\\b|\\b') + "\\b"].join('|'), 'g');
+    var NUMBER_RE = /\b\d[^,]*/g;
+    var BOUNDARY_RE = /^,+|,+$/g;
     var getVariable = function (code) {
+
         code = code
-        .replace(filter, ',')
-        .replace(/[^\w\$]+/g, ',')
-        .replace(/^\d+|,\d+|^,|,$/g, '')
-        .replace(/^,*|,*$/, '');
-        console.log(code);
-        return code ? code.split(',') : []; 
+        .replace(REMOVE_RE, '')
+        .replace(SPLIT_RE, ',')
+        .replace(KEYWORDS_RE, '')
+        .replace(NUMBER_RE, '')
+        .replace(BOUNDARY_RE, '');
+
+        code = code ? code.split(/,+/) : [];
+
+        return code;
     };
 
 
@@ -419,8 +407,9 @@ var _compile = (function () {
         + variables + replaces[0] + code
         + 'return new String(' + replaces[3] + ')';
         
-
+        
         try {
+            
             var Render = new Function('$data', code);
             Render.prototype = prototype;
 
@@ -429,7 +418,7 @@ var _compile = (function () {
         } catch (e) {
             e.temp = 'function anonymous($data) {' + code + '}';
             throw e;
-        };
+        }
 
 
 
@@ -439,10 +428,10 @@ var _compile = (function () {
             
             // 记录行号
             line += code.split(/\n/).length - 1;
-			
-			if (exports.isCompress) {
-				code = code.replace(/[\n\r\t\s]+/g, ' ');
-			}
+
+            if (exports.isCompress) {
+                code = code.replace(/[\n\r\t\s]+/g, ' ');
+            }
             
             code = code
             // 单引号与反斜杠转义(因为编译后的函数默认使用单引号，因此双引号无需转义)
@@ -454,7 +443,7 @@ var _compile = (function () {
             code = replaces[1] + "'" + code + "'" + replaces[2];
             
             return code + '\n';
-        };
+        }
         
         
         // 处理逻辑语句
@@ -493,11 +482,11 @@ var _compile = (function () {
                         !helpers.hasOwnProperty(name)
                         && !/^(include|print)$/.test(name)
                     ) {
-                        code = '$escapeHTML($getValue(' + code + '))';
+                        code = '$escape($string(' + code + '))';
                     }
 
                 } else {
-                    code = '$getValue(' + code + ')';
+                    code = '$string(' + code + ')';
                 }
                 
 
@@ -508,10 +497,11 @@ var _compile = (function () {
             if (isDebug) {
                 code = '$line=' + thisLine + ';' + code;
             }
-
+            
             getKey(code);
+            
             return code + '\n';
-        };
+        }
         
         
         // 提取模板中的变量名
@@ -530,7 +520,7 @@ var _compile = (function () {
                 
             });
             
-        };
+        }
         
         
         // 声明模板变量
@@ -569,7 +559,7 @@ var _compile = (function () {
             }
             
             variables += name + '=' + value + ',';
-        };
+        }
         
         
     };
