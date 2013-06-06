@@ -1,6 +1,15 @@
 jshint-html-reporter
 ====================
+定制了一个 html版本的 jshint  reporter。
 
-jshint定制了一个html版本的reporter
+html的编译生成使用arttemplate。
 
-node模块，利用arttemplate进行json的渲染生成html。
+grunt插件的使用
+===================
+grunt-contrib-jshint配置方法如下：
+
+reporter ： 指定reporter.js的路径。
+reporterOutput ： 指定输出的html文件的路径。
+
+
+
