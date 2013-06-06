@@ -324,14 +324,7 @@ var _compile = (function () {
 
         code = code ? code.split(/,+/) : [];
 
-    // 提取js源码中所有变量
-    var getVariable = function (code) {
-        code = code
-        .replace(filter, ',')
-        .replace(/[^\w\$]+/g, ',')
-        .replace(/^\d+|,\d+|^,|,$/g, '')
-        .replace(/^,*|,*$/, '');
-        return code ? code.split(',') : []; 
+        return code;
     };
 
 
