@@ -335,7 +335,6 @@ var _compile = (function () {
         .replace(/[^\w\$]+/g, ',')
         .replace(/^\d+|,\d+|^,|,$/g, '')
         .replace(/^,*|,*$/, '');
-        console.log(code);
         return code ? code.split(',') : []; 
     };
 

@@ -13,9 +13,9 @@
     <div id="wrapper">
         <ul>
            <% for(var i = 0; i < errors.length; i++) { %>
-            
-                <!-- 区分文件显示  -->
+
                 <% if(0==i) { %>
+                    <!-- 区分文件显示  -->
                     <li class="header"><%= errors[i].file %></li>
                 <% }else if(errors[i].file != errors[i-1].file){ %>
                     <li class="header"><%= errors[i].file %></li>
