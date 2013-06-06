@@ -1,0 +1,1632 @@
+/*
+ * jshint的传递给reporter的参数error结构。reporter(errors, data)
+ */
+
+[{
+    error: {
+      line: 0,
+      character: 0,
+      c: undefined,
+      code: 'E001',
+      scope: '(main)',
+      id: '(error)',
+      evidence: '',
+      raw: 'Bad option: \'{a}\'.',
+      d: undefined,
+      b: undefined,
+      a: 'globals',
+      reason: 'Bad option: \'globals\'.'
+    },
+    file: 'public/computer/js/footer.js'
+  }, {
+    error: {
+      line: 3,
+      character: 2,
+      c: undefined,
+      code: 'W099',
+      scope: '(main)',
+      id: '(error)',
+      evidence: '\t\t var e=arguments.callee.caller.arguments[0]||event;//解决火狐的兼容性',
+      raw: 'Mixed spaces and tabs.',
+      d: undefined,
+      b: undefined,
+      a: undefined,
+      reason: 'Mixed spaces and tabs.'
+    },
+    file: 'public/computer/js/footer.js'
+  }, {
+    error: {
+      line: 3,
+      character: 15,
+      c: undefined,
+      code: 'W004',
+      scope: '(main)',
+      id: '(error)',
+      evidence: '\t\t var e=arguments.callee.caller.arguments[0]||event;//解决火狐的兼容性',
+      raw: '\'{a}\' is already defined.',
+      d: undefined,
+      b: undefined,
+      a: 'e',
+      reason: '\'e\' is already defined.'
+    },
+    file: 'public/computer/js/footer.js'
+  }, {
+    error: {
+      line: 5,
+      character: 2,
+      c: undefined,
+      code: 'W099',
+      scope: '(main)',
+      id: '(error)',
+      evidence: '\t\t   //因此它支持W3C的stopPropagation()方法',
+      raw: 'Mixed spaces and tabs.',
+      d: undefined,
+      b: undefined,
+      a: undefined,
+      reason: 'Mixed spaces and tabs.'
+    },
+    file: 'public/computer/js/footer.js'
+  }, {
+    error: {
+      line: 6,
+      character: 2,
+      c: undefined,
+      code: 'W099',
+      scope: '(main)',
+      id: '(error)',
+      evidence: '\t\t   e.stopPropagation();',
+      raw: 'Mixed spaces and tabs.',
+      d: undefined,
+      b: undefined,
+      a: undefined,
+      reason: 'Mixed spaces and tabs.'
+    },
+    file: 'public/computer/js/footer.js'
+  }, {
+    error: {
+      line: 7,
+      character: 2,
+      c: undefined,
+      code: 'W099',
+      scope: '(main)',
+      id: '(error)',
+      evidence: '\t\t }else{',
+      raw: 'Mixed spaces and tabs.',
+      d: undefined,
+      b: undefined,
+      a: undefined,
+      reason: 'Mixed spaces and tabs.'
+    },
+    file: 'public/computer/js/footer.js'
+  }, {
+    error: {
+      line: 8,
+      character: 2,
+      c: undefined,
+      code: 'W099',
+      scope: '(main)',
+      id: '(error)',
+      evidence: '\t\t   //否则，我们需要使用IE的方式来取消事件冒泡',
+      raw: 'Mixed spaces and tabs.',
+      d: undefined,
+      b: undefined,
+      a: undefined,
+      reason: 'Mixed spaces and tabs.'
+    },
+    file: 'public/computer/js/footer.js'
+  }, {
+    error: {
+      line: 11,
+      character: 2,
+      c: undefined,
+      code: 'W099',
+      scope: '(main)',
+      id: '(error)',
+      evidence: '\t\t }',
+      raw: 'Mixed spaces and tabs.',
+      d: undefined,
+      b: undefined,
+      a: undefined,
+      reason: 'Mixed spaces and tabs.'
+    },
+    file: 'public/computer/js/footer.js'
+  }, {
+    error: {
+      line: 26,
+      character: 39,
+      c: undefined,
+      code: 'W033',
+      scope: '(main)',
+      id: '(error)',
+      evidence: 'onload = onresize = function(){ foot()}',
+      raw: 'Missing semicolon.',
+      d: undefined,
+      b: undefined,
+      a: undefined,
+      reason: 'Missing semicolon.'
+    },
+    file: 'public/computer/js/footer.js'
+  }, {
+    error: {
+      line: 26,
+      character: 40,
+      c: undefined,
+      code: 'W033',
+      scope: '(main)',
+      id: '(error)',
+      evidence: 'onload = onresize = function(){ foot()}',
+      raw: 'Missing semicolon.',
+      d: undefined,
+      b: undefined,
+      a: undefined,
+      reason: 'Missing semicolon.'
+    },
+    file: 'public/computer/js/footer.js'
+  }, {
+    error: {
+      line: 0,
+      character: 0,
+      c: undefined,
+      code: 'E001',
+      scope: '(main)',
+      id: '(error)',
+      evidence: '',
+      raw: 'Bad option: \'{a}\'.',
+      d: undefined,
+      b: undefined,
+      a: 'globals',
+      reason: 'Bad option: \'globals\'.'
+    },
+    file: 'public/computer/js/init.js'
+  }, {
+    error: {
+      line: 27,
+      character: 5,
+      c: undefined,
+      code: 'W082',
+      scope: '(main)',
+      id: '(error)',
+      evidence: '\tfunction Console(){',
+      raw: 'Function declarations should not be placed in blocks. Use a function expression or move the statement to the top of the outer function.',
+      d: undefined,
+      b: undefined,
+      a: undefined,
+      reason: 'Function declarations should not be placed in blocks. Use a function expression or move the statement to the top of the outer function.'
+    },
+    file: 'public/computer/js/init.js'
+  }, {
+    error: {
+      line: 29,
+      character: 6,
+      c: undefined,
+      code: 'W032',
+      scope: '(main)',
+      id: '(error)',
+      evidence: '\t};',
+      raw: 'Unnecessary semicolon.',
+      d: undefined,
+      b: undefined,
+      a: undefined,
+      reason: 'Unnecessary semicolon.'
+    },
+    file: 'public/computer/js/init.js'
+  }, {
+    error: {
+      line: 49,
+      character: 2,
+      c: undefined,
+      code: 'W099',
+      scope: '(main)',
+      id: '(error)',
+      evidence: '\t\t    "keydown #modal-mkdir #dirname" : "newDirKeydown",',
+      raw: 'Mixed spaces and tabs.',
+      d: undefined,
+      b: undefined,
+      a: undefined,
+      reason: 'Mixed spaces and tabs.'
+    },
+    file: 'public/computer/js/init.js'
+  }, {
+    error: {
+      line: 64,
+      character: 29,
+      c: undefined,
+      code: 'W041',
+      scope: '(main)',
+      id: '(error)',
+      evidence: '                if (dirname != "") {',
+      raw: 'Use \'{a}\' to compare with \'{b}\'.',
+      d: undefined,
+      b: '',
+      a: '!==',
+      reason: 'Use \'!==\' to compare with \'\'.'
+    },
+    file: 'public/computer/js/init.js'
+  }, {
+    error: {
+      line: 75,
+      character: 29,
+      c: undefined,
+      code: 'W041',
+      scope: '(main)',
+      id: '(error)',
+      evidence: '                if (dirname != "") {',
+      raw: 'Use \'{a}\' to compare with \'{b}\'.',
+      d: undefined,
+      b: '',
+      a: '!==',
+      reason: 'Use \'!==\' to compare with \'\'.'
+    },
+    file: 'public/computer/js/init.js'
+  }, {
+    error: {
+      line: 83,
+      character: 3,
+      c: undefined,
+      code: 'W099',
+      scope: '(main)',
+      id: '(error)',
+      evidence: '\t\t\t if (e.which == 13) {',
+      raw: 'Mixed spaces and tabs.',
+      d: undefined,
+      b: undefined,
+      a: undefined,
+      reason: 'Mixed spaces and tabs.'
+    },
+    file: 'public/computer/js/init.js'
+  }, {
+    error: {
+      line: 86,
+      character: 30,
+      c: undefined,
+      code: 'W041',
+      scope: '(main)',
+      id: '(error)',
+      evidence: '                if (filename != "") {',
+      raw: 'Use \'{a}\' to compare with \'{b}\'.',
+      d: undefined,
+      b: '',
+      a: '!==',
+      reason: 'Use \'!==\' to compare with \'\'.'
+    },
+    file: 'public/computer/js/init.js'
+  }, {
+    error: {
+      line: 169,
+      character: 19,
+      c: undefined,
+      code: 'W041',
+      scope: '(main)',
+      id: '(error)',
+      evidence: '\t\t\tif(\'\' != dirid && !isNaN(dirid)){',
+      raw: 'Use \'{a}\' to compare with \'{b}\'.',
+      d: undefined,
+      b: '',
+      a: '!==',
+      reason: 'Use \'!==\' to compare with \'\'.'
+    },
+    file: 'public/computer/js/init.js'
+  }, {
+    error: {
+      line: 249,
+      character: 3,
+      c: undefined,
+      code: 'W099',
+      scope: '(main)',
+      id: '(error)',
+      evidence: '\t\t\t Helper.openFlashUpload();',
+      raw: 'Mixed spaces and tabs.',
+      d: undefined,
+      b: undefined,
+      a: undefined,
+      reason: 'Mixed spaces and tabs.'
+    },
+    file: 'public/computer/js/init.js'
+  }, {
+    error: {
+      line: 254,
+      character: 26,
+      c: undefined,
+      code: 'W041',
+      scope: '(main)',
+      id: '(error)',
+      evidence: '\t\t\tif($filename == ""){',
+      raw: 'Use \'{a}\' to compare with \'{b}\'.',
+      d: undefined,
+      b: '',
+      a: '===',
+      reason: 'Use \'===\' to compare with \'\'.'
+    },
+    file: 'public/computer/js/init.js'
+  }, {
+    error: {
+      line: 416,
+      character: 3,
+      c: undefined,
+      code: 'W099',
+      scope: '(main)',
+      id: '(error)',
+      evidence: '\t\t\t Helper.openFlashUpload();',
+      raw: 'Mixed spaces and tabs.',
+      d: undefined,
+      b: undefined,
+      a: undefined,
+      reason: 'Mixed spaces and tabs.'
+    },
+    file: 'public/computer/js/init.js'
+  }, {
+    error: {
+      line: 421,
+      character: 26,
+      c: undefined,
+      code: 'W041',
+      scope: '(main)',
+      id: '(error)',
+      evidence: '\t\t\tif($filename == ""){',
+      raw: 'Use \'{a}\' to compare with \'{b}\'.',
+      d: undefined,
+      b: '',
+      a: '===',
+      reason: 'Use \'===\' to compare with \'\'.'
+    },
+    file: 'public/computer/js/init.js'
+  }, {
+    error: {
+      line: 450,
+      character: 30,
+      c: undefined,
+      code: 'W004',
+      scope: '(main)',
+      id: '(error)',
+      evidence: '\t\t\t\tvar load_top = h + 2 * 170;  //剩余2行开始加载',
+      raw: '\'{a}\' is already defined.',
+      d: undefined,
+      b: undefined,
+      a: 'load_top',
+      reason: '\'load_top\' is already defined.'
+    },
+    file: 'public/computer/js/init.js'
+  }, {
+    error: {
+      line: 451,
+      character: 25,
+      c: undefined,
+      code: 'W004',
+      scope: '(main)',
+      id: '(error)',
+      evidence: '\t\t\t\tvar obj = $("#nd-tabthumb-getmore");',
+      raw: '\'{a}\' is already defined.',
+      d: undefined,
+      b: undefined,
+      a: 'obj',
+      reason: '\'obj\' is already defined.'
+    },
+    file: 'public/computer/js/init.js'
+  }, {
+    error: {
+      line: 453,
+      character: 25,
+      c: undefined,
+      code: 'W004',
+      scope: '(main)',
+      id: '(error)',
+      evidence: '\t\t\t\tvar obj = $("#fs-tablist-getmore");',
+      raw: '\'{a}\' is already defined.',
+      d: undefined,
+      b: undefined,
+      a: 'obj',
+      reason: '\'obj\' is already defined.'
+    },
+    file: 'public/computer/js/init.js'
+  }, {
+    error: {
+      line: 454,
+      character: 30,
+      c: undefined,
+      code: 'W004',
+      scope: '(main)',
+      id: '(error)',
+      evidence: '\t\t\t\tvar load_top = h + 10 * 42;  //剩余10个开始加载',
+      raw: '\'{a}\' is already defined.',
+      d: undefined,
+      b: undefined,
+      a: 'load_top',
+      reason: '\'load_top\' is already defined.'
+    },
+    file: 'public/computer/js/init.js'
+  }, {
+    error: {
+      line: 456,
+      character: 30,
+      c: undefined,
+      code: 'W004',
+      scope: '(main)',
+      id: '(error)',
+      evidence: '\t\t\t\tvar load_top = h + 2 * 170;  //剩余2行开始加载',
+      raw: '\'{a}\' is already defined.',
+      d: undefined,
+      b: undefined,
+      a: 'load_top',
+      reason: '\'load_top\' is already defined.'
+    },
+    file: 'public/computer/js/init.js'
+  }, {
+    error: {
+      line: 457,
+      character: 25,
+      c: undefined,
+      code: 'W004',
+      scope: '(main)',
+      id: '(error)',
+      evidence: '\t\t\t\tvar obj = $("#fs-tabthumb-getmore");',
+      raw: '\'{a}\' is already defined.',
+      d: undefined,
+      b: undefined,
+      a: 'obj',
+      reason: '\'obj\' is already defined.'
+    },
+    file: 'public/computer/js/init.js'
+  }, {
+    error: {
+      line: 459,
+      character: 16,
+      c: undefined,
+      code: 'W038',
+      scope: '(main)',
+      id: '(error)',
+      evidence: '\t\t\tif(obj.offset() && obj.offset().top < load_top){',
+      raw: '\'{a}\' used out of scope.',
+      d: undefined,
+      b: undefined,
+      a: 'obj',
+      reason: '\'obj\' used out of scope.'
+    },
+    file: 'public/computer/js/init.js'
+  }, {
+    error: {
+      line: 459,
+      character: 32,
+      c: undefined,
+      code: 'W038',
+      scope: '(main)',
+      id: '(error)',
+      evidence: '\t\t\tif(obj.offset() && obj.offset().top < load_top){',
+      raw: '\'{a}\' used out of scope.',
+      d: undefined,
+      b: undefined,
+      a: 'obj',
+      reason: '\'obj\' used out of scope.'
+    },
+    file: 'public/computer/js/init.js'
+  }, {
+    error: {
+      line: 459,
+      character: 51,
+      c: undefined,
+      code: 'W038',
+      scope: '(main)',
+      id: '(error)',
+      evidence: '\t\t\tif(obj.offset() && obj.offset().top < load_top){',
+      raw: '\'{a}\' used out of scope.',
+      d: undefined,
+      b: undefined,
+      a: 'load_top',
+      reason: '\'load_top\' used out of scope.'
+    },
+    file: 'public/computer/js/init.js'
+  }, {
+    error: {
+      line: 464,
+      character: 35,
+      c: undefined,
+      code: 'W038',
+      scope: '(main)',
+      id: '(error)',
+      evidence: '\t\t\t\tif(0 !== parseInt(obj.attr(\'isgetmore\'))){',
+      raw: '\'{a}\' used out of scope.',
+      d: undefined,
+      b: undefined,
+      a: 'obj',
+      reason: '\'obj\' used out of scope.'
+    },
+    file: 'public/computer/js/init.js'
+  }, {
+    error: {
+      line: 464,
+      character: 56,
+      c: undefined,
+      code: 'W065',
+      scope: '(main)',
+      id: '(error)',
+      evidence: '\t\t\t\tif(0 !== parseInt(obj.attr(\'isgetmore\'))){',
+      raw: 'Missing radix parameter.',
+      d: undefined,
+      b: undefined,
+      a: undefined,
+      reason: 'Missing radix parameter.'
+    },
+    file: 'public/computer/js/init.js'
+  }, {
+    error: {
+      line: 465,
+      character: 21,
+      c: undefined,
+      code: 'W038',
+      scope: '(main)',
+      id: '(error)',
+      evidence: '\t\t\t\t\tobj.find("a").click();',
+      raw: '\'{a}\' used out of scope.',
+      d: undefined,
+      b: undefined,
+      a: 'obj',
+      reason: '\'obj\' used out of scope.'
+    },
+    file: 'public/computer/js/init.js'
+  }, {
+    error: {
+      line: 527,
+      character: 26,
+      c: undefined,
+      code: 'W041',
+      scope: '(main)',
+      id: '(error)',
+      evidence: '\t\t\t\t\tif(0 == data.getmore){',
+      raw: 'Use \'{a}\' to compare with \'{b}\'.',
+      d: undefined,
+      b: '0',
+      a: '===',
+      reason: 'Use \'===\' to compare with \'0\'.'
+    },
+    file: 'public/computer/js/init.js'
+  }, {
+    error: {
+      line: 690,
+      character: 3,
+      c: undefined,
+      code: 'W099',
+      scope: '(main)',
+      id: '(error)',
+      evidence: '\t\t\t \thtml = "<li>"+Helper.echo_nbsp(level)+',
+      raw: 'Mixed spaces and tabs.',
+      d: undefined,
+      b: undefined,
+      a: undefined,
+      reason: 'Mixed spaces and tabs.'
+    },
+    file: 'public/computer/js/init.js'
+  }, {
+    error: {
+      line: 692,
+      character: 3,
+      c: undefined,
+      code: 'W099',
+      scope: '(main)',
+      id: '(error)',
+      evidence: '\t\t\t    \t\t"<input type=\'text\' value=\'新建文件夹\' id=\'new_dirName\'/>&nbsp;&nbsp;" +',
+      raw: 'Mixed spaces and tabs.',
+      d: undefined,
+      b: undefined,
+      a: undefined,
+      reason: 'Mixed spaces and tabs.'
+    },
+    file: 'public/computer/js/init.js'
+  }, {
+    error: {
+      line: 695,
+      character: 3,
+      c: undefined,
+      code: 'W099',
+      scope: '(main)',
+      id: '(error)',
+      evidence: '\t\t\t    \t\t"</li>";',
+      raw: 'Mixed spaces and tabs.',
+      d: undefined,
+      b: undefined,
+      a: undefined,
+      reason: 'Mixed spaces and tabs.'
+    },
+    file: 'public/computer/js/init.js'
+  }, {
+    error: {
+      line: 697,
+      character: 50,
+      c: undefined,
+      code: 'W041',
+      scope: '(main)',
+      id: '(error)',
+      evidence: '\t\t\tif ($("#move_item_" + dir_id).html() == null) {',
+      raw: 'Use \'{a}\' to compare with \'{b}\'.',
+      d: undefined,
+      b: 'null',
+      a: '===',
+      reason: 'Use \'===\' to compare with \'null\'.'
+    },
+    file: 'public/computer/js/init.js'
+  }, {
+    error: {
+      line: 734,
+      character: 37,
+      c: undefined,
+      code: 'W041',
+      scope: '(main)',
+      id: '(error)',
+      evidence: '\t\t\tif($obj.attr(\'is_open\') == 0){',
+      raw: 'Use \'{a}\' to compare with \'{b}\'.',
+      d: undefined,
+      b: '0',
+      a: '===',
+      reason: 'Use \'===\' to compare with \'0\'.'
+    },
+    file: 'public/computer/js/init.js'
+  }, {
+    error: {
+      line: 738,
+      character: 65,
+      c: undefined,
+      code: 'W041',
+      scope: '(main)',
+      id: '(error)',
+      evidence: '\t\t\t\tif ($("#move_item_"+$obj.attr(\'dir_id\')).html() == null) {',
+      raw: 'Use \'{a}\' to compare with \'{b}\'.',
+      d: undefined,
+      b: 'null',
+      a: '===',
+      reason: 'Use \'===\' to compare with \'null\'.'
+    },
+    file: 'public/computer/js/init.js'
+  }, {
+    error: {
+      line: 741,
+      character: 36,
+      c: undefined,
+      code: 'W061',
+      scope: '(main)',
+      id: '(error)',
+      evidence: '\t\t\t\t\t\tvar json = eval(data);',
+      raw: 'eval can be harmful.',
+      d: undefined,
+      b: undefined,
+      a: undefined,
+      reason: 'eval can be harmful.'
+    },
+    file: 'public/computer/js/init.js'
+  }, {
+    error: {
+      line: 772,
+      character: 24,
+      c: undefined,
+      code: 'W041',
+      scope: '(main)',
+      id: '(error)',
+      evidence: '\t\t\tif(dirname == ""){',
+      raw: 'Use \'{a}\' to compare with \'{b}\'.',
+      d: undefined,
+      b: '',
+      a: '===',
+      reason: 'Use \'===\' to compare with \'\'.'
+    },
+    file: 'public/computer/js/init.js'
+  }, {
+    error: {
+      line: 795,
+      character: 28,
+      c: undefined,
+      code: 'W061',
+      scope: '(main)',
+      id: '(error)',
+      evidence: '\t\t\t\tvar json = eval(data);',
+      raw: 'eval can be harmful.',
+      d: undefined,
+      b: undefined,
+      a: undefined,
+      reason: 'eval can be harmful.'
+    },
+    file: 'public/computer/js/init.js'
+  }, {
+    error: {
+      line: 843,
+      character: 29,
+      c: undefined,
+      code: 'W041',
+      scope: '(main)',
+      id: '(error)',
+      evidence: '                if (dirname != "") {',
+      raw: 'Use \'{a}\' to compare with \'{b}\'.',
+      d: undefined,
+      b: '',
+      a: '!==',
+      reason: 'Use \'!==\' to compare with \'\'.'
+    },
+    file: 'public/computer/js/init.js'
+  }, {
+    error: {
+      line: 853,
+      character: 4,
+      c: undefined,
+      code: 'W099',
+      scope: '(main)',
+      id: '(error)',
+      evidence: '    \tinit: function(){',
+      raw: 'Mixed spaces and tabs.',
+      d: undefined,
+      b: undefined,
+      a: undefined,
+      reason: 'Mixed spaces and tabs.'
+    },
+    file: 'public/computer/js/init.js'
+  }, {
+    error: {
+      line: 854,
+      character: 8,
+      c: undefined,
+      code: 'W099',
+      scope: '(main)',
+      id: '(error)',
+      evidence: '        \tthis.browser = this.searchString(this.dataBrowser) || "unknown";',
+      raw: 'Mixed spaces and tabs.',
+      d: undefined,
+      b: undefined,
+      a: undefined,
+      reason: 'Mixed spaces and tabs.'
+    },
+    file: 'public/computer/js/init.js'
+  }, {
+    error: {
+      line: 855,
+      character: 8,
+      c: undefined,
+      code: 'W099',
+      scope: '(main)',
+      id: '(error)',
+      evidence: '        \tthis.version = this.searchVersion(navigator.userAgent) || ',
+      raw: 'Mixed spaces and tabs.',
+      d: undefined,
+      b: undefined,
+      a: undefined,
+      reason: 'Mixed spaces and tabs.'
+    },
+    file: 'public/computer/js/init.js'
+  }, {
+    error: {
+      line: 857,
+      character: 8,
+      c: undefined,
+      code: 'W099',
+      scope: '(main)',
+      id: '(error)',
+      evidence: '        \tthis.OS = this.searchString(this.dataOS) || "unknown";',
+      raw: 'Mixed spaces and tabs.',
+      d: undefined,
+      b: undefined,
+      a: undefined,
+      reason: 'Mixed spaces and tabs.'
+    },
+    file: 'public/computer/js/init.js'
+  }, {
+    error: {
+      line: 858,
+      character: 4,
+      c: undefined,
+      code: 'W099',
+      scope: '(main)',
+      id: '(error)',
+      evidence: '    \t},',
+      raw: 'Mixed spaces and tabs.',
+      d: undefined,
+      b: undefined,
+      a: undefined,
+      reason: 'Mixed spaces and tabs.'
+    },
+    file: 'public/computer/js/init.js'
+  }, {
+    error: {
+      line: 859,
+      character: 4,
+      c: undefined,
+      code: 'W099',
+      scope: '(main)',
+      id: '(error)',
+      evidence: '    \tsearchString: function(data){',
+      raw: 'Mixed spaces and tabs.',
+      d: undefined,
+      b: undefined,
+      a: undefined,
+      reason: 'Mixed spaces and tabs.'
+    },
+    file: 'public/computer/js/init.js'
+  }, {
+    error: {
+      line: 860,
+      character: 7,
+      c: undefined,
+      code: 'W099',
+      scope: '(main)',
+      id: '(error)',
+      evidence: '       \t\tfor (var i = 0; i < data.length; i++) {',
+      raw: 'Mixed spaces and tabs.',
+      d: undefined,
+      b: undefined,
+      a: undefined,
+      reason: 'Mixed spaces and tabs.'
+    },
+    file: 'public/computer/js/init.js'
+  }, {
+    error: {
+      line: 861,
+      character: 12,
+      c: undefined,
+      code: 'W099',
+      scope: '(main)',
+      id: '(error)',
+      evidence: '            \tvar dataString = data[i].string;',
+      raw: 'Mixed spaces and tabs.',
+      d: undefined,
+      b: undefined,
+      a: undefined,
+      reason: 'Mixed spaces and tabs.'
+    },
+    file: 'public/computer/js/init.js'
+  }, {
+    error: {
+      line: 862,
+      character: 12,
+      c: undefined,
+      code: 'W099',
+      scope: '(main)',
+      id: '(error)',
+      evidence: '            \tvar dataProp = data[i].prop;',
+      raw: 'Mixed spaces and tabs.',
+      d: undefined,
+      b: undefined,
+      a: undefined,
+      reason: 'Mixed spaces and tabs.'
+    },
+    file: 'public/computer/js/init.js'
+  }, {
+    error: {
+      line: 863,
+      character: 12,
+      c: undefined,
+      code: 'W099',
+      scope: '(main)',
+      id: '(error)',
+      evidence: '            \tthis.versionSearchString = data[i].versionSearch || data[i].identity;',
+      raw: 'Mixed spaces and tabs.',
+      d: undefined,
+      b: undefined,
+      a: undefined,
+      reason: 'Mixed spaces and tabs.'
+    },
+    file: 'public/computer/js/init.js'
+  }, {
+    error: {
+      line: 864,
+      character: 12,
+      c: undefined,
+      code: 'W099',
+      scope: '(main)',
+      id: '(error)',
+      evidence: '            \tif (dataString) {',
+      raw: 'Mixed spaces and tabs.',
+      d: undefined,
+      b: undefined,
+      a: undefined,
+      reason: 'Mixed spaces and tabs.'
+    },
+    file: 'public/computer/js/init.js'
+  }, {
+    error: {
+      line: 865,
+      character: 16,
+      c: undefined,
+      code: 'W099',
+      scope: '(main)',
+      id: '(error)',
+      evidence: '                \tif (dataString.indexOf(data[i].subString) != -1){',
+      raw: 'Mixed spaces and tabs.',
+      d: undefined,
+      b: undefined,
+      a: undefined,
+      reason: 'Mixed spaces and tabs.'
+    },
+    file: 'public/computer/js/init.js'
+  }, {
+    error: {
+      line: 868,
+      character: 12,
+      c: undefined,
+      code: 'W099',
+      scope: '(main)',
+      id: '(error)',
+      evidence: '            \t}',
+      raw: 'Mixed spaces and tabs.',
+      d: undefined,
+      b: undefined,
+      a: undefined,
+      reason: 'Mixed spaces and tabs.'
+    },
+    file: 'public/computer/js/init.js'
+  }, {
+    error: {
+      line: 869,
+      character: 11,
+      c: undefined,
+      code: 'W099',
+      scope: '(main)',
+      id: '(error)',
+      evidence: '           \t \telse{',
+      raw: 'Mixed spaces and tabs.',
+      d: undefined,
+      b: undefined,
+      a: undefined,
+      reason: 'Mixed spaces and tabs.'
+    },
+    file: 'public/computer/js/init.js'
+  }, {
+    error: {
+      line: 869,
+      character: 11,
+      scope: '(main)',
+      raw: 'Too many errors.',
+      reason: 'Too many errors. (34% scanned).'
+    },
+    file: 'public/computer/js/init.js'
+  }, {
+    error: {
+      line: 0,
+      character: 0,
+      c: undefined,
+      code: 'E001',
+      scope: '(main)',
+      id: '(error)',
+      evidence: '',
+      raw: 'Bad option: \'{a}\'.',
+      d: undefined,
+      b: undefined,
+      a: 'globals',
+      reason: 'Bad option: \'globals\'.'
+    },
+    file: 'public/computer/js/login.js'
+  }, {
+    error: {
+      line: 39,
+      character: 15,
+      c: undefined,
+      code: 'W041',
+      scope: '(main)',
+      id: '(error)',
+      evidence: '\t\tif(\'\' == $this.val()){',
+      raw: 'Use \'{a}\' to compare with \'{b}\'.',
+      d: undefined,
+      b: '',
+      a: '===',
+      reason: 'Use \'===\' to compare with \'\'.'
+    },
+    file: 'public/computer/js/login.js'
+  }, {
+    error: {
+      line: 49,
+      character: 19,
+      c: undefined,
+      code: 'W041',
+      scope: '(main)',
+      id: '(error)',
+      evidence: '\t\t\tif(\'\' == $.trim($this.val())){',
+      raw: 'Use \'{a}\' to compare with \'{b}\'.',
+      d: undefined,
+      b: '',
+      a: '===',
+      reason: 'Use \'===\' to compare with \'\'.'
+    },
+    file: 'public/computer/js/login.js'
+  }, {
+    error: {
+      line: 52,
+      character: 11,
+      c: undefined,
+      code: 'W033',
+      scope: '(main)',
+      id: '(error)',
+      evidence: '\t\t})',
+      raw: 'Missing semicolon.',
+      d: undefined,
+      b: undefined,
+      a: undefined,
+      reason: 'Missing semicolon.'
+    },
+    file: 'public/computer/js/login.js'
+  }, {
+    error: {
+      line: 56,
+      character: 19,
+      c: undefined,
+      code: 'W041',
+      scope: '(main)',
+      id: '(error)',
+      evidence: '\t\t\tif(\'\' == $.trim($this.val())){',
+      raw: 'Use \'{a}\' to compare with \'{b}\'.',
+      d: undefined,
+      b: '',
+      a: '===',
+      reason: 'Use \'===\' to compare with \'\'.'
+    },
+    file: 'public/computer/js/login.js'
+  }, {
+    error: {
+      line: 70,
+      character: 3,
+      c: undefined,
+      code: 'W099',
+      scope: '(main)',
+      id: '(error)',
+      evidence: '\t\t\t    login_name = $.trim($(\'#login_name\').val()),',
+      raw: 'Mixed spaces and tabs.',
+      d: undefined,
+      b: undefined,
+      a: undefined,
+      reason: 'Mixed spaces and tabs.'
+    },
+    file: 'public/computer/js/login.js'
+  }, {
+    error: {
+      line: 71,
+      character: 3,
+      c: undefined,
+      code: 'W099',
+      scope: '(main)',
+      id: '(error)',
+      evidence: '\t\t\t    login_pwd = $.trim($(\'#login_pwd\').val()),',
+      raw: 'Mixed spaces and tabs.',
+      d: undefined,
+      b: undefined,
+      a: undefined,
+      reason: 'Mixed spaces and tabs.'
+    },
+    file: 'public/computer/js/login.js'
+  }, {
+    error: {
+      line: 75,
+      character: 29,
+      c: undefined,
+      code: 'W041',
+      scope: '(main)',
+      id: '(error)',
+      evidence: '\t\t\tif(self_content != \'\'){',
+      raw: 'Use \'{a}\' to compare with \'{b}\'.',
+      d: undefined,
+      b: '',
+      a: '!==',
+      reason: 'Use \'!==\' to compare with \'\'.'
+    },
+    file: 'public/computer/js/login.js'
+  }, {
+    error: {
+      line: 76,
+      character: 31,
+      c: undefined,
+      code: 'W041',
+      scope: '(main)',
+      id: '(error)',
+      evidence: '\t\t\t\tif(login_name == \'\'){',
+      raw: 'Use \'{a}\' to compare with \'{b}\'.',
+      d: undefined,
+      b: '',
+      a: '===',
+      reason: 'Use \'===\' to compare with \'\'.'
+    },
+    file: 'public/computer/js/login.js'
+  }, {
+    error: {
+      line: 78,
+      character: 36,
+      c: undefined,
+      code: 'W041',
+      scope: '(main)',
+      id: '(error)',
+      evidence: '                }else if(login_pwd == \'\'){',
+      raw: 'Use \'{a}\' to compare with \'{b}\'.',
+      d: undefined,
+      b: '',
+      a: '===',
+      reason: 'Use \'===\' to compare with \'\'.'
+    },
+    file: 'public/computer/js/login.js'
+  }, {
+    error: {
+      line: 80,
+      character: 63,
+      c: undefined,
+      code: 'W041',
+      scope: '(main)',
+      id: '(error)',
+      evidence: '\t\t\t\t}else if(displayCap != "none" && captcha_code == \'\'){',
+      raw: 'Use \'{a}\' to compare with \'{b}\'.',
+      d: undefined,
+      b: '',
+      a: '===',
+      reason: 'Use \'===\' to compare with \'\'.'
+    },
+    file: 'public/computer/js/login.js'
+  }, {
+    error: {
+      line: 207,
+      character: 28,
+      c: undefined,
+      code: 'W041',
+      scope: '(main)',
+      id: '(error)',
+      evidence: '\t\tif(location.search != \'\' && \'undefined\' != location.search){',
+      raw: 'Use \'{a}\' to compare with \'{b}\'.',
+      d: undefined,
+      b: '',
+      a: '!==',
+      reason: 'Use \'!==\' to compare with \'\'.'
+    },
+    file: 'public/computer/js/login.js'
+  }, {
+    error: {
+      line: 0,
+      character: 0,
+      c: undefined,
+      code: 'E001',
+      scope: '(main)',
+      id: '(error)',
+      evidence: '',
+      raw: 'Bad option: \'{a}\'.',
+      d: undefined,
+      b: undefined,
+      a: 'globals',
+      reason: 'Bad option: \'globals\'.'
+    },
+    file: 'public/computer/js/pop.js'
+  }, {
+    error: {
+      line: 9,
+      character: 3,
+      c: undefined,
+      code: 'W099',
+      scope: '(main)',
+      id: '(error)',
+      evidence: '\t\t\t    list_li[i].className="current";',
+      raw: 'Mixed spaces and tabs.',
+      d: undefined,
+      b: undefined,
+      a: undefined,
+      reason: 'Mixed spaces and tabs.'
+    },
+    file: 'public/computer/js/pop.js'
+  }, {
+    error: {
+      line: 11,
+      character: 14,
+      c: undefined,
+      code: 'W033',
+      scope: '(main)',
+      id: '(error)',
+      evidence: '\t\t\t}',
+      raw: 'Missing semicolon.',
+      d: undefined,
+      b: undefined,
+      a: undefined,
+      reason: 'Missing semicolon.'
+    },
+    file: 'public/computer/js/pop.js'
+  }, {
+    error: {
+      line: 15,
+      character: 10,
+      c: undefined,
+      code: 'W033',
+      scope: '(main)',
+      id: '(error)',
+      evidence: '\t\t}',
+      raw: 'Missing semicolon.',
+      d: undefined,
+      b: undefined,
+      a: undefined,
+      reason: 'Missing semicolon.'
+    },
+    file: 'public/computer/js/pop.js'
+  }, {
+    error: {
+      line: 16,
+      character: 10,
+      c: undefined,
+      code: 'W083',
+      scope: '(main)',
+      id: '(error)',
+      evidence: '\t\t}(i)',
+      raw: 'Don\'t make functions within a loop.',
+      d: undefined,
+      b: undefined,
+      a: undefined,
+      reason: 'Don\'t make functions within a loop.'
+    },
+    file: 'public/computer/js/pop.js'
+  }, {
+    error: {
+      line: 16,
+      character: 12,
+      c: undefined,
+      code: 'W030',
+      scope: '(main)',
+      id: '(error)',
+      evidence: '\t\t}(i)',
+      raw: 'Expected an assignment or function call and instead saw an expression.',
+      d: undefined,
+      b: undefined,
+      a: undefined,
+      reason: 'Expected an assignment or function call and instead saw an expression.'
+    },
+    file: 'public/computer/js/pop.js'
+  }, {
+    error: {
+      line: 16,
+      character: 13,
+      c: undefined,
+      code: 'W033',
+      scope: '(main)',
+      id: '(error)',
+      evidence: '\t\t}(i)',
+      raw: 'Missing semicolon.',
+      d: undefined,
+      b: undefined,
+      a: undefined,
+      reason: 'Missing semicolon.'
+    },
+    file: 'public/computer/js/pop.js'
+  }, {
+    error: {
+      line: 0,
+      character: 0,
+      c: undefined,
+      code: 'E001',
+      scope: '(main)',
+      id: '(error)',
+      evidence: '',
+      raw: 'Bad option: \'{a}\'.',
+      d: undefined,
+      b: undefined,
+      a: 'globals',
+      reason: 'Bad option: \'globals\'.'
+    },
+    file: 'public/computer/js/scroll.js'
+  }, {
+    error: {
+      line: 31,
+      character: 2,
+      c: undefined,
+      code: 'W033',
+      scope: '(main)',
+      id: '(error)',
+      evidence: '}',
+      raw: 'Missing semicolon.',
+      d: undefined,
+      b: undefined,
+      a: undefined,
+      reason: 'Missing semicolon.'
+    },
+    file: 'public/computer/js/scroll.js'
+  }, {
+    error: {
+      line: 37,
+      character: 2,
+      c: undefined,
+      code: 'W033',
+      scope: '(main)',
+      id: '(error)',
+      evidence: '}',
+      raw: 'Missing semicolon.',
+      d: undefined,
+      b: undefined,
+      a: undefined,
+      reason: 'Missing semicolon.'
+    },
+    file: 'public/computer/js/scroll.js'
+  }, {
+    error: {
+      line: 43,
+      character: 2,
+      c: undefined,
+      code: 'W033',
+      scope: '(main)',
+      id: '(error)',
+      evidence: '}',
+      raw: 'Missing semicolon.',
+      d: undefined,
+      b: undefined,
+      a: undefined,
+      reason: 'Missing semicolon.'
+    },
+    file: 'public/computer/js/scroll.js'
+  }, {
+    error: {
+      line: 48,
+      character: 2,
+      c: undefined,
+      code: 'W033',
+      scope: '(main)',
+      id: '(error)',
+      evidence: '}',
+      raw: 'Missing semicolon.',
+      d: undefined,
+      b: undefined,
+      a: undefined,
+      reason: 'Missing semicolon.'
+    },
+    file: 'public/computer/js/scroll.js'
+  }, {
+    error: {
+      line: 53,
+      character: 2,
+      c: undefined,
+      code: 'W033',
+      scope: '(main)',
+      id: '(error)',
+      evidence: '}',
+      raw: 'Missing semicolon.',
+      d: undefined,
+      b: undefined,
+      a: undefined,
+      reason: 'Missing semicolon.'
+    },
+    file: 'public/computer/js/scroll.js'
+  }, {
+    error: {
+      line: 57,
+      character: 46,
+      c: undefined,
+      code: 'W065',
+      scope: '(main)',
+      id: '(error)',
+      evidence: '    if (parseInt(this.ScrollContent.scrollTop) >= parseInt(this.ScrollContent.scrollHeight) / 2) {',
+      raw: 'Missing radix parameter.',
+      d: undefined,
+      b: undefined,
+      a: undefined,
+      reason: 'Missing radix parameter.'
+    },
+    file: 'public/computer/js/scroll.js'
+  }, {
+    error: {
+      line: 57,
+      character: 91,
+      c: undefined,
+      code: 'W065',
+      scope: '(main)',
+      id: '(error)',
+      evidence: '    if (parseInt(this.ScrollContent.scrollTop) >= parseInt(this.ScrollContent.scrollHeight) / 2) {',
+      raw: 'Missing radix parameter.',
+      d: undefined,
+      b: undefined,
+      a: undefined,
+      reason: 'Missing radix parameter.'
+    },
+    file: 'public/computer/js/scroll.js'
+  }, {
+    error: {
+      line: 62,
+      character: 46,
+      c: undefined,
+      code: 'W065',
+      scope: '(main)',
+      id: '(error)',
+      evidence: '    if (parseInt(this.ScrollContent.scrollTop) <= 0) {',
+      raw: 'Missing radix parameter.',
+      d: undefined,
+      b: undefined,
+      a: undefined,
+      reason: 'Missing radix parameter.'
+    },
+    file: 'public/computer/js/scroll.js'
+  }, {
+    error: {
+      line: 63,
+      character: 78,
+      c: undefined,
+      code: 'W065',
+      scope: '(main)',
+      id: '(error)',
+      evidence: '      this.ScrollContent.scrollTop = parseInt(this.ScrollContent.scrollHeight) / 2;',
+      raw: 'Missing radix parameter.',
+      d: undefined,
+      b: undefined,
+      a: undefined,
+      reason: 'Missing radix parameter.'
+    },
+    file: 'public/computer/js/scroll.js'
+  }, {
+    error: {
+      line: 67,
+      character: 44,
+      c: undefined,
+      code: 'W065',
+      scope: '(main)',
+      id: '(error)',
+      evidence: '  if (parseInt(this.ScrollContent.scrollTop) % this.LineHeight != 0) {',
+      raw: 'Missing radix parameter.',
+      d: undefined,
+      b: undefined,
+      a: undefined,
+      reason: 'Missing radix parameter.'
+    },
+    file: 'public/computer/js/scroll.js'
+  }, {
+    error: {
+      line: 67,
+      character: 64,
+      c: undefined,
+      code: 'W041',
+      scope: '(main)',
+      id: '(error)',
+      evidence: '  if (parseInt(this.ScrollContent.scrollTop) % this.LineHeight != 0) {',
+      raw: 'Use \'{a}\' to compare with \'{b}\'.',
+      d: undefined,
+      b: '0',
+      a: '!==',
+      reason: 'Use \'!==\' to compare with \'0\'.'
+    },
+    file: 'public/computer/js/scroll.js'
+  }, {
+    error: {
+      line: 72,
+      character: 2,
+      c: undefined,
+      code: 'W033',
+      scope: '(main)',
+      id: '(error)',
+      evidence: '}',
+      raw: 'Missing semicolon.',
+      d: undefined,
+      b: undefined,
+      a: undefined,
+      reason: 'Missing semicolon.'
+    },
+    file: 'public/computer/js/scroll.js'
+  }, {
+    error: {
+      line: 76,
+      character: 38,
+      c: undefined,
+      code: 'W041',
+      scope: '(main)',
+      id: '(error)',
+      evidence: '    if (this.ScrollContent.scrollTop == 0) {',
+      raw: 'Use \'{a}\' to compare with \'{b}\'.',
+      d: undefined,
+      b: '0',
+      a: '===',
+      reason: 'Use \'===\' to compare with \'0\'.'
+    },
+    file: 'public/computer/js/scroll.js'
+  }, {
+    error: {
+      line: 77,
+      character: 78,
+      c: undefined,
+      code: 'W065',
+      scope: '(main)',
+      id: '(error)',
+      evidence: '      this.ScrollContent.scrollTop = parseInt(this.ScrollContent.scrollHeight) / 2;',
+      raw: 'Missing radix parameter.',
+      d: undefined,
+      b: undefined,
+      a: undefined,
+      reason: 'Missing radix parameter.'
+    },
+    file: 'public/computer/js/scroll.js'
+  }, {
+    error: {
+      line: 83,
+      character: 44,
+      c: undefined,
+      code: 'W065',
+      scope: '(main)',
+      id: '(error)',
+      evidence: '  if (parseInt(this.ScrollContent.scrollTop) >= parseInt(this.ScrollContent.scrollHeight) / 2) {',
+      raw: 'Missing radix parameter.',
+      d: undefined,
+      b: undefined,
+      a: undefined,
+      reason: 'Missing radix parameter.'
+    },
+    file: 'public/computer/js/scroll.js'
+  }, {
+    error: {
+      line: 83,
+      character: 89,
+      c: undefined,
+      code: 'W065',
+      scope: '(main)',
+      id: '(error)',
+      evidence: '  if (parseInt(this.ScrollContent.scrollTop) >= parseInt(this.ScrollContent.scrollHeight) / 2) {',
+      raw: 'Missing radix parameter.',
+      d: undefined,
+      b: undefined,
+      a: undefined,
+      reason: 'Missing radix parameter.'
+    },
+    file: 'public/computer/js/scroll.js'
+  }, {
+    error: {
+      line: 86,
+      character: 44,
+      c: undefined,
+      code: 'W065',
+      scope: '(main)',
+      id: '(error)',
+      evidence: '  if (parseInt(this.ScrollContent.scrollTop) % this.LineHeight != 0) {',
+      raw: 'Missing radix parameter.',
+      d: undefined,
+      b: undefined,
+      a: undefined,
+      reason: 'Missing radix parameter.'
+    },
+    file: 'public/computer/js/scroll.js'
+  }, {
+    error: {
+      line: 86,
+      character: 64,
+      c: undefined,
+      code: 'W041',
+      scope: '(main)',
+      id: '(error)',
+      evidence: '  if (parseInt(this.ScrollContent.scrollTop) % this.LineHeight != 0) {',
+      raw: 'Use \'{a}\' to compare with \'{b}\'.',
+      d: undefined,
+      b: '0',
+      a: '!==',
+      reason: 'Use \'!==\' to compare with \'0\'.'
+    },
+    file: 'public/computer/js/scroll.js'
+  }, {
+    error: {
+      line: 89,
+      character: 2,
+      c: undefined,
+      code: 'W033',
+      scope: '(main)',
+      id: '(error)',
+      evidence: '}',
+      raw: 'Missing semicolon.',
+      d: undefined,
+      b: undefined,
+      a: undefined,
+      reason: 'Missing semicolon.'
+    },
+    file: 'public/computer/js/scroll.js'
+  }, {
+    error: {
+      line: 94,
+      character: 4,
+      c: undefined,
+      code: 'W033',
+      scope: '(main)',
+      id: '(error)',
+      evidence: '  }',
+      raw: 'Missing semicolon.',
+      d: undefined,
+      b: undefined,
+      a: undefined,
+      reason: 'Missing semicolon.'
+    },
+    file: 'public/computer/js/scroll.js'
+  }, {
+    error: {
+      line: 95,
+      character: 2,
+      c: undefined,
+      code: 'W033',
+      scope: '(main)',
+      id: '(error)',
+      evidence: '}',
+      raw: 'Missing semicolon.',
+      d: undefined,
+      b: undefined,
+      a: undefined,
+      reason: 'Missing semicolon.'
+    },
+    file: 'public/computer/js/scroll.js'
+  },
+  [length]: 102
+]

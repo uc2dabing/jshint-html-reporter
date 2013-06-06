@@ -1,0 +1,29 @@
+[class^="icon-"], [class*=" icon-"] {
+    vertical-align: middle;
+    margin-right: 5px;
+}
+header {
+    margin: 30px 0;
+}
+li.header{
+    list-style: none;
+    margin-left: -20px;
+}
+.errorlist {
+    margin: 40px 0;
+}
+.errorlist .info {
+    margin: 0 5px;
+}
+
+.fileinfolist {
+    margin-bottom: 30px;
+}
+
+.fileinfolist li {
+    margin: 4px 0;
+}
+.fileinfolist li a {
+    display: inline-block;
+    margin-right: 10px;
+}
