@@ -1,8 +1,8 @@
-
 var template = require('./template');
 var path = require('path');
 var fs = require('fs');
 var util = require('util');
+
 
  var errorTplFilename = 'errorlist.tpl'; 
 
@@ -33,4 +33,6 @@ exports.reporter = function(errors){
     console.log(html);
 
 };
+
 //exports.reporter({});
+
